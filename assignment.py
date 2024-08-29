@@ -22,3 +22,6 @@ def main():
             print(f"{first_name} {last_name} has made the Honor Roll.")
         if not made_deans_list and not made_honor_roll:
             print(f"{first_name} {last_name} has not made the Dean's List or the Honor Roll.")
+
+if __name__ == "__main__":
+    main()
